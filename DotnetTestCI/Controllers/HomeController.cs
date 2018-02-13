@@ -10,8 +10,7 @@ namespace DotnetTestCI.Controllers
     {
         public ActionResult Index()
         {
-            return View(); 
-            asdasdasdasd
+            return View();
         }
 
         public ActionResult About()
