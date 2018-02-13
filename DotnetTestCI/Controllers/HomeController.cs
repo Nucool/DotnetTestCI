@@ -11,6 +11,7 @@ namespace DotnetTestCI.Controllers
         public ActionResult Index()
         {
             return View(); 
+            asdasdasdasd
         }
 
         public ActionResult About()
