@@ -4,4 +4,5 @@ install:
   - nuget restore DotnetTestCI.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
+  - grep IncludeRoslynCompilerFilesToItemGroup * -R
   - xbuild /p:Configuration=Release DotnetTestCI.sln
