@@ -27,7 +27,7 @@ namespace DotnetTestCI.Tests
 
             //Console.WriteLine("viewname : " + result.ViewName);
             //// Assert
-            //Assert.AreEqual("Index", result.ViewName);
+            //Assert.AreEqual("Index", result.ViewName); 
         }
 
 
