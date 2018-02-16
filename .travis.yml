@@ -2,7 +2,7 @@ language: csharp
 solution: DotnetTestCI.sln
 install:
   - nuget restore DotnetTestCI.sln
-  - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
+  - nuget install NUnit.Runners -Version 3.9.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release DotnetTestCI.sln
-  - mono ./testrunner/NUnit.Runners.3.7.0/tools/nunit-console.exe ./DotnetTestCI.Tests/bin/Release/DotnetTestCI.Tests.dll
+  - mono ./testrunner/NUnit.Runners.3.9.0/tools/nunit-console.exe ./DotnetTestCINUnit.Tests/bin/Release/DotnetTestCINUnit.Tests.dll
